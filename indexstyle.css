@@ -11,6 +11,7 @@ body {
 	background-image: linear-gradient(  rgba(0, 0, 0, 0.75),  rgba(0, 0, 0, 0.75)  ),  url(cover.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position:center;
 	padding: 0;
 	margin: 0;
 }
@@ -21,6 +22,7 @@ body {
 	width: 100%;
 	text-align:right;
 }
+
 .nav {
 	margin: 32px;
 }
@@ -42,6 +44,7 @@ a:hover{
 }
 .title {
 	margin: 32px;
+	min-width: 200px;
 }
 .title h1 {
 	display: inline;
@@ -57,4 +60,13 @@ a:hover{
 	padding: 8px;
 }
 
-
+/*mobile*/
+@media only screen and (min-width: 0px) and (max-width: 640px){
+	.header{
+		margin-top: 16px;
+		text-align: left;
+	}
+	.socialitems{
+		padding:0;
+	}
+}
