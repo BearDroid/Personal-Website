@@ -1,215 +1,52 @@
- @charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
-html, body {
+html {
+	width: 100%;
+	height: 100%;
 	font-family: "Open Sans", sans-serif;
-	height: 100%;
-	max-height: 1000px;
+}
+body {
 	width: 100%;
-	margin: 0;
+	height: 100%;
+	background-image: linear-gradient(  rgba(0, 0, 0, 0.75),  rgba(0, 0, 0, 0.75)  ),  url(cover.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 	padding: 0;
-	display:block;
+	margin: 0;
 }
-
-#construction {
-	text-align: center;
-	color: black;
-	font-weight: 700;
-}
-a {
-	text-decoration: none;
-	color: black;
-}
-.sidebar {
-	background-color: #fff;
-	height: 100%;
-	width: 30%;
-	margin-top: 0;
-	box-shadow: 3px 0 5px rgba(0,0,0,0.26);
-	position: fixed;
-	float: left;
-}
-.container {
-	margin-left: 16px;
-	margin-right: 16px;
-	margin-top: 50%;
-	margin-bottom: 50%;
-	height: 100%;
-}
-h1 {
-}
-.mmm {
-	color: white;
-	font-size: 28px;
-	margin-top: 16px;
-	margin-bottom: 16px;
+.header {
+	position: absolute;
+	margin-top: 35%;
 	text-align: center;
 	width: 100%;
-}
-.navbar {
-	padding-top: 50px;
+	text-align:right;
 }
 .nav {
-	padding-top: 16px;
-	padding-left: 0;
-	padding-bottom: 16px;
-	text-align: center;
+	margin: 32px;
 }
-.nav ul {
+.navitems {
+	
+	padding: 0px;
 }
-.nav li {
+.navitems li {
+	text-align:center;
+	padding: 8px;
 	display: inline;
 }
-.nav li a {
-	padding: 8px;
+.navitems li a {
 	text-decoration: none;
-	color: black;
+	color: white;
+	text-transform: lowercase;
+}
+.navitems li a:hover{
+	color: gray;
+}
+.title {
+	margin: 32px;
+}
+.title h1 {
+	display: inline;
+	font-size: 50px;
+	color: white;
 	text-transform: uppercase;
-}
-.nav li a:hover {
-	padding: 8px;
-	background: #E0E0E0;
-	color: black;
-	box-shadow: 0 3px 5px rgba(0,0,0,0.26);
-}
-.nav li a:active {
-	box-shadow: 0 5px 5px rgba(0,0,0,0.26);
-}
-.social {
-	text-align: center;
-}
-.social-links {
-	list-style-type: none;
-	padding: 0;
-	text-align: center;
-}
-.social-links li {
-	font-size: 12px;
-	display: inline;
-	padding: 4px;
-}
-#twitter a {
-	text-decoration: none;
-	color: white;
-}
-.content {
-	width: 70%;	
-	height: 1000px;
-	float: right;
-	background-image: url(clouds.jpg); 
-	background-position:center;
-	background-attachment:fixed;
-	background-size: cover;
-	padding: 0;
-	border: 0;
-	margin-left: 30%;
-	z-index: 800;
-}
-.button {
-	display: inline;
-	position: relative;
-	font-size: 1em;
-	background-color: #4CAF50;
-	color: white;
-}
-.cont-container {
-	width: 100%;
-	padding: 0;
-	margin: 0;
-}
-.card {
-	width: 100%;
-	height: 200px;
-	vertical-align: top;
-	background-color: #fff;
-	box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.26);
-}
-.card:hover {
-	box-shadow: 0 5px 10px rgba(0,0,0,0.26);
-}
-.card:active {
-	box-shadow: 0 8px 10px rgba(0,0,0,0.26);
-}
-.card-list {
-	width: 80%;
-	height: 100%;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-left: 0;
-	padding-top: 0;
-}
-.card-list li {
-	list-style-type: none;
-	width: 100%;
-	height: 200px;
-	margin-top: 32px;
-}
-#card1 {
-}
-#card2 {
-}
-#card3 {
-}
-#card4 {
-	margin-bottom: 50px;
-}
-.card-head {
-	width: 100%;
- 	height 30px;
-	background-color: #E0E0E0;
-	margin-top: 0;
-	vertical-align: top;
-	display: inline-block;
-}
-.card-head p {
-	color: black;
-	font-weight: 700;
-	margin-left: 16px;
-}
-.card-info {
-	padding: 16px;
-	margin: 0;
-}
-.card-info p {
-	margin: 0;
-}
-
-/**mobile**/
-@media only screen and (min-width: 100px) and (max-width: 700px) {
-.html, body {
-	height: 100%;
-	width: 100%;
-}
-.container {
-	display: block;
-	top: 8px;
-	margin: 0;
-}
-.sidebar {
-	width: 100%;
-	height: 170px;
-	position: fixed;
-	box-shadow: 0 3px 5px rgba(0,0,0,0.26);
-}
-.mmm {
-	margin-top: 8px;
-	;
-}
-.content {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 170px;
-	background-image: url(clouds.jpg); 
-	background-position:center;
-	background-attachment:fixed;
-	background-size: cover;
-}
-.nav {
-	padding: 0;
-}
-.card {
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-}
 }
