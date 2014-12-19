@@ -25,7 +25,6 @@ body {
 	margin: 32px;
 }
 .navitems {
-	
 	padding: 0px;
 }
 .navitems li {
@@ -33,12 +32,12 @@ body {
 	padding: 8px;
 	display: inline;
 }
-.navitems li a {
+a {
 	text-decoration: none;
 	color: white;
 	text-transform: lowercase;
 }
-.navitems li a:hover{
+a:hover{
 	color: gray;
 }
 .title {
@@ -50,3 +49,12 @@ body {
 	color: white;
 	text-transform: uppercase;
 }
+.social{
+	margin: 32px;
+}
+.socialitems li{
+	display: inline;
+	padding: 8px;
+}
+
+
