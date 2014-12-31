@@ -14,7 +14,7 @@ body {
 }
 .header {
 	width: 100%;
-	background-image: linear-gradient(  rgba(0, 0, 0, 0.75),  rgba(0, 0, 0, 0.75)  ),  url(cover.jpg);
+	background-image: linear-gradient(  rgba(0, 0, 0, 0.75),  rgba(0, 0, 0, 0.75)  ),  url(http://www.maxmmoss.com/cover.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:center;
