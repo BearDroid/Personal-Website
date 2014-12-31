@@ -39,12 +39,16 @@ span{
 .title{
 	display:inline-block;
 	height: 100%;
-}
-.navlist{
+	float: left;
 }
 .nav{
 	display:inline-block;
 	margin-left:15%;
+	float: left;
+	height: 100%;
+}
+.navlist{
+	padding-top: 45px;
 }
 .navlist li{
 	display: inline;
@@ -78,6 +82,7 @@ span{
 .title{
 	text-align:center;
 	display: inline;
+	float: none;
 }
 #mm{
 	padding: 2px;
@@ -85,6 +90,7 @@ span{
 .nav{
 	display: inline;
 	text-align:center;
+	float: none;
 }
 .navlist{
 	padding:0;
@@ -96,5 +102,3 @@ span{
 	display: none;
 }
 }
-
-
